@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import {NgxSmoothScrollModule} from '@boatzako/ngx-smooth-scroll';
+import {SkillsComponent} from './components/skills/skills.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

@@ -4,11 +4,14 @@
 }
 
 
-
 .fakeScreen{
   padding: 60px;
 }
-
+.float-arrow-button {
+  position:fixed;
+  bottom:10px;
+  right:50%;
+}
 
 /* Arrow & Hover Animation */
 #more-arrows {

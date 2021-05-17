@@ -1,0 +1,54 @@
+.skills-container{
+  height:100vh;
+  width: 100%;
+  background-color: #1f1f1f;
+  min-height: 200px;
+  overflow: hidden;
+  padding-bottom: 10%;
+}
+.skills-tile {
+  background-color: rgba(248,245,244,.05);
+  padding: 10px 10px 5px;
+  width: 100px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+
+.section-title {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font: 18px/24px "opensans-bold",sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  text-align: center;
+}
+.text-white {
+  color: #fff!important;
+}
+
+.devicon-git-plain path {
+  fill: #4691f6;
+}
+
+.style-icons{
+  font-size: 220%;
+}
+
+.style-icon{
+  font-size: 20%; margin-top: 4px;
+}
+
+.skill-icon, footer {
+  color: #fff;
+  text-align: center;
+  position: relative;
+}.skill-icon {
+   font-size: 180%;
+ }
+
+
+.list-inline-item {
+  display: inline-block;
+}
