@@ -9,22 +9,21 @@ export class SkillsComponent implements OnInit {
   iconSelected = '';
 
   languages = [
-    {name: 'JAVA', icon: 'devicon-java-plain'},
-    {name: 'JAVASCRIPT', icon: 'devicon-javascript-plain'},
-    {name: 'TYPESCRIPT', icon: 'devicon-typescript-plain'},
-    {name: 'PYTHON', icon: 'devicon-python-plain'},
-    {name: 'RUBY', icon: 'devicon-ruby-plain'}
+    {name: 'Java', icon: 'devicon-java-plain'},
+    {name: 'JavaScript', icon: 'devicon-javascript-plain'},
+    {name: 'TypeScript', icon: 'devicon-typescript-plain'},
+    {name: 'Python', icon: 'devicon-python-plain'},
+    {name: 'Ruby', icon: 'devicon-ruby-plain'}
   ];
 
   frameworks = [
-    {name: 'Icon', icon: 'devicon-ionic-original'},
+    {name: 'Ionic', icon: 'devicon-ionic-original'},
     {name: 'Angular', icon: 'devicon-angularjs-plain'},
-    {name: 'Spring Boot', icon: 'devicon-spring-plain'},
-    {name: 'Node js', icon: 'devicon-nodejs-plain'},
+    {name: 'Spring', icon: 'devicon-spring-plain'},
+    {name: 'NodeJs', icon: 'devicon-nodejs-plain'},
     {name: 'Express', icon: 'devicon-express-original'},
-    {name: 'Nest js', icon: 'devicon-nestjs-plain'},
+    {name: 'Nestjs', icon: 'devicon-nestjs-plain'},
     {name: 'Flask', icon: 'devicon-flask-plain'},
-    {name: 'DJango', icon: 'devicon-django-plain'}
   ];
 
 
@@ -36,8 +35,8 @@ export class SkillsComponent implements OnInit {
 
   clouds = [
     {name: 'Firebase', icon: 'devicon-firebase-plain'},
-    {name: 'Google Cloud', icon: 'devicon-googlecloud-plain'},
-    {name: 'Digital Ocean', icon: 'devicon-digitalocean-plain'}
+    {name: 'GoogleCloud', icon: 'devicon-googlecloud-plain'},
+    {name: 'DigitalOcean', icon: 'devicon-digitalocean-plain'}
   ];
 
   constructor() { }

@@ -1,14 +1,14 @@
 .about-container{
   height:100vh;
   width: 100%;
-  background-color: #fcdab7;
+  background-color: #242629;
+  padding-top: 10rem;
 }
 .buttonTrans{
   border: none;
 }
-.card-align{
-  height: 100%;
-}
+
+
 .btn-align{
   position: absolute;
   height: 90%;
@@ -16,15 +16,26 @@
   display: flex; justify-content:center; align-items:center;
 }
 
-
 .padding-footer{
   grid-template-rows: 80px 200px;
 }
-.padding-arrow{
-  width: 200px;
+
+.card-dark{
+  background-color: #16161a;
+  color: #94a1b2;
 }
+
+.headline-text{
+  color: #fffffe;
+}
+.social-network-icon{
+  color: #fffffe;
+  font-size: 200%;
+  margin: 9% 5% 0px;
+}
+//style="color: black; font-size: 200%; margin: 9% 5% 0px;
 .polaroid span {
-  background: #fff;
+  background: #16161a;
   display: inline-block;
   margin: 55px 75px 30px;
   padding: 15px 15px 30px;

@@ -8,7 +8,7 @@
 }
 .open-button {
   position: absolute;
-  background: #0fa;
+  background: #7f5af0;
   height: 100px;
   width: 100px;
   bottom: 0;
@@ -19,11 +19,11 @@
 }
 .open-button:before, .item01:before, .item02:before, .item03:before, .item04:before {
   position: absolute;
-  font-family: "FontAwesome";
+  font-family: "FontAwesome", serif;
   font-size: 2rem;
   top: 50%;
   left: 50%;
-  color: black;
+  color: #fffffe;
   transform: translate(-50%, -50%);
 }
 .open-button:before {
