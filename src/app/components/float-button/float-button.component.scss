@@ -1,0 +1,80 @@
+.float-button-container {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+.open-button {
+  position: absolute;
+  background: #0fa;
+  height: 100px;
+  width: 100px;
+  bottom: 0;
+  transform: scale(0.8, 0.8);
+  border-radius: 100px;
+  z-index: 999;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.open-button:before, .item01:before, .item02:before, .item03:before, .item04:before {
+  position: absolute;
+  font-family: "FontAwesome";
+  font-size: 2rem;
+  top: 50%;
+  left: 50%;
+  color: black;
+  transform: translate(-50%, -50%);
+}
+.open-button:before {
+  content: "\f015";
+}
+.item01:before {
+  content: "\f2b9";
+}
+.item02:before {
+  content: "\f121";
+}
+.item03:before {
+  content: "\f109";
+}
+.item04:before {
+  content: "\f1d8";
+}
+.item01, .item02, .item03, .item04 {
+  position: absolute;
+  background: #fff;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  bottom: 0;
+  transform: scale(0.4, 0.4);
+  transition: all 0.3s cubic-bezier(0.68, -0.15, 0.265, 1.15);
+}
+.item01:hover, .item02:hover, .item03:hover, .item04:hover {
+  background: #0fa;
+}
+.float-button-container:hover {
+  height: 100%;
+}
+.float-button-container:hover .open-button {
+  transform: scale(1, 1);
+}
+.float-button-container:hover .item01,
+.float-button-container:hover .item02,
+.float-button-container:hover .item03,
+.float-button-container:hover .item04 {
+  transform: scale(0.6, 0.6);
+}
+.float-button-container:hover .item01 {
+  bottom: 90px;
+}
+.float-button-container:hover .item02 {
+  bottom: 160px;
+}
+.float-button-container:hover .item03 {
+  bottom: 230px;
+}
+.float-button-container:hover .item04 {
+  bottom: 300px;
+}

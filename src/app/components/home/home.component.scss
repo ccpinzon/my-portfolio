@@ -7,11 +7,16 @@
 .fakeScreen{
   padding: 60px;
 }
-
-.arrow-button-down{
-  margin-top: 0px;
+.code-icon{
+  //right: 50%;
+  width: 50%;
 }
 
+.btn-align{
+  position: absolute;
+  right: 50%;
+  padding-bottom: 30px;
+}
 
 .buttonTrans{
   border: none;

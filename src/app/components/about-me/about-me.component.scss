@@ -6,17 +6,21 @@
 .buttonTrans{
   border: none;
 }
-
-.arrow-button-down{
-
-  margin-top: 0px;
+.card-align{
+  height: 100%;
+}
+.btn-align{
+  position: absolute;
+  height: 90%;
+  right: 50%;
+  display: flex; justify-content:center; align-items:center;
 }
 
 
-.paddingfooter{
+.padding-footer{
   grid-template-rows: 80px 200px;
 }
-.paddingflecha{
+.padding-arrow{
   width: 200px;
 }
 .polaroid span {
