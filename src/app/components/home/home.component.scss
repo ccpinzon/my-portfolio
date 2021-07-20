@@ -14,6 +14,43 @@
   color: #fffffe;
 }
 
+.profile-photo img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+
+.profile-photo{
+  margin-top: 18vh;
+  border-style: solid;
+  border-color: #fffffe;
+  display: inline-block;
+  position: relative;
+  width: 40vh;
+  height: 40vh;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-photo-portrait img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+
+.profile-photo-portrait {
+  margin-top: 18vh;
+  border-style: solid;
+  border-color: #fffffe;
+  position: relative;
+  width: 40vh;
+  height: 40vh;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
 .btn-align{
   position: absolute;
   right: 50%;
