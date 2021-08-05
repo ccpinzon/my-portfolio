@@ -8,6 +8,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import {NgxSmoothScrollModule} from '@boatzako/ngx-smooth-scroll';
 import {SkillsComponent} from './components/skills/skills.component';
 import { FloatButtonComponent } from './components/float-button/float-button.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FloatButtonComponent } from './components/float-button/float-button.com
     HomeComponent,
     AboutMeComponent,
     SkillsComponent,
-    FloatButtonComponent
+    FloatButtonComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
