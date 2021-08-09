@@ -1,0 +1,7 @@
+<footer class="footer">
+  <p>Created with 🦾️ by:</p>
+  <div class="developers">
+    <a class="developer" *ngFor="let dev of developers" [href]="dev.github" target="_blank">{{dev.name}}</a>
+  </div>
+  <p>&copy; {{year}}</p>
+</footer>
